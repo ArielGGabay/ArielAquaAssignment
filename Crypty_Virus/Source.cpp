@@ -3,8 +3,10 @@
 
 int main()
 {
+	
 	FileInfector fileInfector = FileInfector();
+	std::cout << "Enter path to the file you want to infect:" << std::endl;
+	fileInfector.infectFile("PATH TO FILE");	
 
-	fileInfector.infectFile("C:\\Users\\user\\Desktop\\Aqua Assignment\\TestFiles\\Test1(Infected)");
 	return 0;
 }

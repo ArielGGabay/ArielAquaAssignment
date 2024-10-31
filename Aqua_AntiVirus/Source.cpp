@@ -9,6 +9,7 @@ int main(int arc, char* argv[]) {
 	if (arc < 2)
 	{
 		std::cout << "You must input the path of the directory and the signature file" << std::endl;
+		return 0;
 	}
 	ThreadPool threadPool(MAX_SIMULTANEOUS_THREADS);
 

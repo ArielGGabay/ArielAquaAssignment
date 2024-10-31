@@ -51,7 +51,6 @@ std::vector<std::string> FileHandler::getInfectedFilesList() {
 //it will check if the file is infected. The function will add the file to the infected files vector.
 void FileHandler::handleFile(const std::string& filePath) {
 	if (this->isELF(filePath)) {
-		std::cout << filePath << " is an ELF file" << std::endl;
 		std::string fileContent = this->readFile(filePath);
 		SignatureSearchHandler suspiciousFile = SignatureSearchHandler(_cryptySignature);
 		suspiciousFile.setFileContent(fileContent);
