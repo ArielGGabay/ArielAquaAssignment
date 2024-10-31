@@ -1,0 +1,9 @@
+﻿  FileHandler.cpp
+  SignatureSearchHandler.cpp
+C:\Users\user\Desktop\Aqua Assignment\Aqua_AntiVirus\SignatureSearchHandler.cpp(21,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\Desktop\Aqua Assignment\Aqua_AntiVirus\SignatureSearchHandler.cpp(22,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\Desktop\Aqua Assignment\Aqua_AntiVirus\SignatureSearchHandler.cpp(60,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Source.cpp
+  ThreadPool.cpp
+  Generating Code...
+  Aqua_AntiVirus.vcxproj -> C:\Users\user\Desktop\Aqua Assignment\Aqua_AntiVirus\x64\Debug\Aqua_AntiVirus.exe
